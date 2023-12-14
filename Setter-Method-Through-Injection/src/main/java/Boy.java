@@ -13,8 +13,12 @@ public class Boy {
         agreement.chats();
     }
 
+    public void setter(Agreement a) {
+        this.agreement = a;  //  <------- Setter method through Injection
+    }
     public static void main(String[] args) {
         Boy boy = new Boy(new Girl());
+        boy.setter(new Girl());
         boy.chatWithGirl();
     }
 }
