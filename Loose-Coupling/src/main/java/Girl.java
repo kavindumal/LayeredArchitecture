@@ -1,5 +1,5 @@
-public class Girl {
+public class Girl implements Agreement {
     public void chats() {
-        System.out.println("Chat......");
+        System.out.println("hello...");
     }
 }
