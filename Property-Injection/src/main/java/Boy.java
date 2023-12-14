@@ -1,11 +1,10 @@
 public class Boy {
+    Agreement agreement = new Girl(); // <--- Property Injection
     public void chatWithGirl() {
-        Agreement agreement = new Girl(); // <--- dependency Injection
         agreement.chats();
     }
 
     public void test() {
-        Agreement agreement = new Girl(); // <--- dependency Injection
         agreement.chats();
     }
 
