@@ -1,6 +1,6 @@
 public class Boy {
     public void chatWithGirl() {
-        Agreement agreement = new Girl();
+        Agreement agreement = new Girl(); // <--- dependency Injection
         agreement.chats();
     }
 
