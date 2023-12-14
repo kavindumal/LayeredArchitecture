@@ -10,6 +10,7 @@
         <module name="Setter-Method-Through-Injection" />
         <module name="Constructor-Through-Injection" />
         <module name="Dependency-Injection-Introduction" />
+        <module name="Interface-Through-Injection" />
         <module name="Loose-Coupling" />
       </profile>
     </annotationProcessing>
