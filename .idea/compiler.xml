@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Property-Injection" />
+        <module name="Loose-Coupling" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Tight-coupling" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
