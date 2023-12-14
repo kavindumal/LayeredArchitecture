@@ -1,5 +1,5 @@
 public class Girl {
-    public void chat() {
+    public void chats() {
         System.out.println("Chat......");
     }
 }
