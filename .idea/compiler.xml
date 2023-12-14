@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Property-Injection" />
+        <module name="Setter-Method-Through-Injection" />
         <module name="Constructor-Through-Injection" />
         <module name="Dependency-Injection-Introduction" />
         <module name="Loose-Coupling" />
